@@ -1,7 +1,7 @@
 # A Performance Evaluation of Several Deep Neural Networks for Reverberant Speech Separation
 Qingju Liu, Wenwu Wang, Philip JB Jackson, Saeid Safavi 
 
-Paper in Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, CA, US, October, 2018
+[Paper](http://epubs.surrey.ac.uk/849431/) in Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, CA, US, October, 2018
 
 In this paper, we compare different deep neural networks (DNN) in extracting speech signals from competing speakers in room environments, including the conventional fully-connected multilayer perception (MLP) network, convolutional neural network (CNN), recurrent neural network (RNN), and the recently proposed capsule network (CapsNet). Each DNN takes input of both spectral features and converted spatial features that are robust to position mismatch, and outputs the separation mask for target source estimation. In addition, a psychacoustically-motivated objective function is integrated in each DNN, which explores perceptual importance of each TF unit in the training process. Objective evaluations are performed on the separated sounds using the converged models, in terms of PESQ, SDR as well as STOI. Overall, all the implemented DNNs have greatly improved the quality and speech intelligibility of the embedded target source as compared to the original recordings. In particular, bidirectional RNN, either along the temporal direction or along the frequency bins, outperforms the other DNN structures with consistent improvement. 
 
